@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1776500557">
+  <File Type="ROUTE-PWR" Name="graph_explorer_top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="graph_explorer_top.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="graph_explorer_top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="graph_explorer_top_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="graph_explorer_top_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="graph_explorer_top.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="graph_explorer_top_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="graph_explorer_top_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="graph_explorer_top_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="graph_explorer_top_opt.dcp"/>
+  <File Type="OPT-DRC" Name="graph_explorer_top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="graph_explorer_top.hwdef"/>
+  <File Type="PWROPT-DCP" Name="graph_explorer_top_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="graph_explorer_top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="graph_explorer_top_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="graph_explorer_top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="graph_explorer_top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="graph_explorer_top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="graph_explorer_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="graph_explorer_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="graph_explorer_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="graph_explorer_top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="graph_explorer_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="graph_explorer_top.bin"/>
+  <File Type="PLACE-TIMING" Name="graph_explorer_top_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="graph_explorer_top_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="graph_explorer_top_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="graph_explorer_top_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="graph_explorer_top.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="graph_explorer_top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="graph_explorer_top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="graph_explorer_top_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="graph_explorer_top.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="graph_explorer_top_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="graph_explorer_top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="graph_explorer_top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="graph_explorer_top_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="graph_explorer_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="graph_explorer_top_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="graph_explorer_top_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="graph_explorer_top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="graph_explorer_top_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="graph_explorer_top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="graph_explorer_top_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="graph_explorer_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="graph_explorer_top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="graph_explorer_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="graph_explorer_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="graph_explorer_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="graph_explorer_top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="graph_explorer_top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="graph_explorer_top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="graph_explorer_top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="graph_explorer_top_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="graph_explorer_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="graph_explorer_top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="graph_explorer_top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="graph_explorer_top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="graph_explorer_top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="graph_explorer_top_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="graph_explorer_top.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="graph_explorer_top_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="graph_explorer_top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="graph_explorer_top.nky"/>
+  <File Type="BITSTR-BMM" Name="graph_explorer_top_bd.bmm"/>
+  <File Type="PDI-FILE" Name="graph_explorer_top.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="graph_explorer_top_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="graph_explorer_top_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="graph_explorer_top.rcfi"/>
+  <File Type="CFI_FILE" Name="graph_explorer_top.cfi"/>
+  <File Type="RNPI_FILE" Name="graph_explorer_top.rnpi"/>
+  <File Type="NPI_FILE" Name="graph_explorer_top.npi"/>
+  <File Type="RBD_FILE" Name="graph_explorer_top.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="graph_explorer_top.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="graph_explorer_top.sysdef"/>
+  <File Type="BG-BGN" Name="graph_explorer_top.bgn"/>
+  <File Type="BG-DRC" Name="graph_explorer_top.drc"/>
+  <File Type="RDI-RDI" Name="graph_explorer_top.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="graph_explorer_top_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="graph_explorer_top_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/clk_divider.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/debouncer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/edge_detector.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/graph_alu.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/queue.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/stack.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/memory_unit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/register_set.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/control_unit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/graph_engine.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/seg7_driver.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rgb_status.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/graph_explorer_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="graph_explorer_top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/basys3_pins.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/graph_explorer_top.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

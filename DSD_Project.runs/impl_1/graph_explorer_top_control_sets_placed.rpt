@@ -1,0 +1,137 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Sat Apr 18 14:23:22 2026
+| Host         : LAPTOP-5D0S2VO3 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file graph_explorer_top_control_sets_placed.rpt
+| Design       : graph_explorer_top
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    59 |
+|    Minimum number of control sets                        |    59 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    72 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    59 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    50 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             163 |           58 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              16 |            4 |
+| Yes          | No                    | No                     |            1180 |          377 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             137 |           37 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+------------------------------------+--------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |            Enable Signal           |        Set/Reset Signal        | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+------------------------------------+--------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | u_eng/u_cu/want_dfs                |                                |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | u_eng/u_cu/dfs_do_push             |                                |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_0            |                                |                3 |              5 |         1.67 |
+|  clk_IBUF_BUFG | u_eng/u_cu/q_push_reg_0            |                                |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG | u_eng/u_cu/edge_i[2]_i_1_n_0       |                                |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG | u_eng/u_cu/q_push_reg_1            |                                |                3 |              6 |         2.00 |
+|  clk_IBUF_BUFG | u_eng/u_cu/visited_leds[7]_i_1_n_0 |                                |                1 |              8 |         8.00 |
+|  clk_IBUF_BUFG | u_deb/cnt[10]_i_2_n_0              | u_deb/cnt[10]_i_1_n_0          |                3 |              9 |         3.00 |
+|  clk_IBUF_BUFG | u_eng/u_cu/st_pop_reg_0            |                                |                3 |             10 |         3.33 |
+|  clk_IBUF_BUFG | u_eng/u_cu/num_nodes               |                                |                5 |             16 |         3.20 |
+|  clk_IBUF_BUFG |                                    | u_div/cnt[16]_i_1_n_0          |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG | u_eng/u_cu/disp_d0[3]_i_1_n_0      |                                |                6 |             16 |         2.67 |
+|  clk_IBUF_BUFG | u_eng/u_cu/init_adj_reg_0          |                                |                3 |             16 |         5.33 |
+|  clk_IBUF_BUFG | u_eng/u_cu/init_adj_reg_1          |                                |                5 |             16 |         3.20 |
+|  clk_IBUF_BUFG | u_eng/u_cu/init_adj_reg_3          |                                |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG | u_eng/u_cu/init_adj_reg_2          |                                |                3 |             16 |         5.33 |
+|  clk_IBUF_BUFG | u_eng/u_cu/result_dist[15]_i_1_n_0 |                                |                6 |             16 |         2.67 |
+|  clk_IBUF_BUFG | u_eng/u_cu/seen_bfs[0]             | u_eng/u_cu/dist[0][15]_i_1_n_0 |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG | u_eng/u_cu/seen_bfs[1]             | u_eng/u_cu/dist[1][15]_i_1_n_0 |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG | u_eng/u_cu/seen_bfs[3]             | u_eng/u_cu/dist[3][15]_i_1_n_0 |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG | u_eng/u_cu/seen_bfs[4]             | u_eng/u_cu/dist[4][15]_i_1_n_0 |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG | u_eng/u_cu/seen_bfs[7]             | u_eng/u_cu/dist[7][15]_i_1_n_0 |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG | u_eng/u_cu/seen_bfs[5]             | u_eng/u_cu/dist[5][15]_i_1_n_0 |                5 |             16 |         3.20 |
+|  clk_IBUF_BUFG | u_eng/u_cu/seen_bfs[6]             | u_eng/u_cu/dist[6][15]_i_1_n_0 |                5 |             16 |         3.20 |
+|  clk_IBUF_BUFG | u_eng/u_cu/seen_bfs[2]             | u_eng/u_cu/dist[2][15]_i_1_n_0 |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_37           |                                |               15 |             31 |         2.07 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_13           |                                |                6 |             31 |         5.17 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_15           |                                |                6 |             31 |         5.17 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_19           |                                |               10 |             31 |         3.10 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_10           |                                |                9 |             31 |         3.44 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_25           |                                |               12 |             31 |         2.58 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_8            |                                |                9 |             31 |         3.44 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_6            |                                |               10 |             31 |         3.10 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_24           |                                |               15 |             31 |         2.07 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_7            |                                |               11 |             31 |         2.82 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_9            |                                |               13 |             31 |         2.38 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_28           |                                |                6 |             31 |         5.17 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_30           |                                |                5 |             31 |         6.20 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_11           |                                |               15 |             31 |         2.07 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_14           |                                |               10 |             31 |         3.10 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_27           |                                |                9 |             31 |         3.44 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_26           |                                |                9 |             31 |         3.44 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_16           |                                |                9 |             31 |         3.44 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_17           |                                |               11 |             31 |         2.82 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_23           |                                |                6 |             31 |         5.17 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_21           |                                |                8 |             31 |         3.88 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_29           |                                |               12 |             31 |         2.58 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_18           |                                |                8 |             31 |         3.88 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_22           |                                |               10 |             31 |         3.10 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_31           |                                |                6 |             31 |         5.17 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_20           |                                |               14 |             31 |         2.21 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_32           |                                |                7 |             31 |         4.43 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_33           |                                |                8 |             31 |         3.88 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_34           |                                |               11 |             31 |         2.82 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_12           |                                |               15 |             31 |         2.07 |
+|  clk_IBUF_BUFG | u_eng/u_cu/st_wdata[30]_i_1_n_0    |                                |               11 |             31 |         2.82 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_35           |                                |               11 |             31 |         2.82 |
+|  clk_IBUF_BUFG | u_eng/u_cu/clr_qs_reg_36           |                                |               13 |             31 |         2.38 |
+|  clk_IBUF_BUFG |                                    |                                |               58 |            163 |         2.81 |
++----------------+------------------------------------+--------------------------------+------------------+----------------+--------------+
+
+
